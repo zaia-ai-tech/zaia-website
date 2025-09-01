@@ -1,0 +1,7 @@
+*.html @zaia-ai-tech/Frontend
+*.css  @zaia-ai-tech/Frontend
+*.js   @zaia-ai-tech/Frontend
+
+*.py   @zaia-ai-tech/Backend
+
+.github/workflows/ @zaia-ai/DevOps
