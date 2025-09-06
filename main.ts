@@ -42,5 +42,24 @@ server.registerTool(
   }
 );
 
+server.registerTool(
+  "list-projects",
+  {
+    title: "List Projects",
+    description: "Lists all available projects",
+    inputSchema: {},
+  },
+  async () => {
+    return {
+      content: [
+        {
+          type: "text",
+          text: `Available projects: ${JSON.stringify(projects, null, 2)}`,
+        },
+      ],
+    };
+  }
+);
+
 const transport = new StdioServerTransport();
 server.connect(transport);

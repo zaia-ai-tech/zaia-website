@@ -1,0 +1,14 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "role": "Project Manager"
+    },
+    {
+      "id": 2,
+      "name": "Bob Johnson",
+      "role": "Software Engineer"
+    }
+  ]
+}

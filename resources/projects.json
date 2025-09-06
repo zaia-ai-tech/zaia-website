@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Zaia Project",
+      "description": "Zaia Project is an innovative platform designed to streamline communication and collaboration among teams."
+    },
+    {
+      "id": 2,
+      "name": "Zaia Project Beta",
+      "description": "Zaia Project Beta is a cutting-edge solution aimed at enhancing productivity and workflow efficiency."
+    }
+  ]
+}
